@@ -26,9 +26,9 @@ function draw() {
       let x = ix + gapW * i;
       let y = iy + gapH * j;
       strokeWeight(4);
-      circle (x, y, 2 * val);
+      circle (x, y, 3 * val);
       strokeWeight(3);
-      circle(x, y, 1.5 * val);
+      circle(x, y, 2 * val);
       strokeWeight(2);
       circle(x, y, val);
       strokeWeight(1);
@@ -42,7 +42,7 @@ function draw() {
   noStroke();
   fill(r, g, b);
   rotate(val / 2);
-  textSize(val * 2.5);
+  textSize(val * 3);
   textFont("blenny");
   textAlign(CENTER, CENTER);
   text("disco", 5, 10);
