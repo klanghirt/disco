@@ -3,7 +3,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   colorMode(RGB);
   slider = createSlider(0, 151, 0);
-  slider.position(width/2, height/1.03);
+  slider.position(width/2, height/1.08);
   slider.style("width", "300px");
   noFill();
 }
