@@ -3,20 +3,16 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   colorMode(RGB);
   slider = createSlider(0, 151, 0);
-  slider.position(210, 500);
+  slider.position(width/2, 600);
   slider.style("width", "300px");
   noFill();
-  
-  //r = random (255)
-  //g = random (255)
-  //b = random (255)
 }
 
 function draw() {
   background(0);
   let val = slider.value();
   
-  //push();
+  push();
   for (let i = 0; i < 8; i++) {
     for (let j = 0; j < 8; j++) {
       stroke(170)
@@ -30,7 +26,7 @@ function draw() {
       circle(x, y, val);
     }
   }
-  //pop();
+  pop();
   
   push();
   translate(width / 2, height / 2);
