@@ -1,2 +1,2 @@
 # disco
-A colorful and interactive Java Script project. FLASH WARNING
+A colorful and interactive JavaScript project. FLASH WARNING.
