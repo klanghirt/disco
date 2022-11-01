@@ -16,6 +16,7 @@
               display: inline-block;
               transition-duration: 0.4s
               font-size: 16px;
+              font-style: verdana
               margin: 4px 2px;
               cursor: pointer;
             }
@@ -23,26 +24,27 @@
               background-color:white;
               opacity: 1;
             }
-            slider {
+            .sliderClass{
               -webkit-appearance: none;
               width: 100%;
-              height: 25px;
+              height: 5px;
               background: #d3d3d3;
               outline: none;
-              opacity: 0.7;
+              opacity: 0.2;
+              border-radius: 30px;
               -webkit-transition: .2s;
               transition: opacity .2s;
             }
 
-            slider:hover {
+            .sliderClass:hover {
               opacity: 1;
             }
-            slider::-webkit-slider-thumb {
+            .sliderClass::-webkit-slider-thumb {
               -webkit-appearance: none;
               appearance: none;
-              width: 25px;
-              height: 25px;
-              background: #04AA6D;
+              width: 15px;
+              height: 5px;
+              background: #E8871E;
               cursor: pointer;
       }
     </style>
