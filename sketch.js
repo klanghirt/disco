@@ -47,7 +47,7 @@ function draw() {
     textAlign(CENTER);
   textFont("trebuchet MS");
     textSize(50);
-   text ("FLASH WARNING", width / 2 + 5, 245)
+   text ("FLASH WARNING", width / 2, 245)
   }
   
   
