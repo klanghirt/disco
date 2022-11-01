@@ -6,18 +6,18 @@ let disco = false;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   time = millis();
-  colorMode(RGB);
+  //color.addRGB);
   slider = createSlider(0, 151, 0);
   slider.style("width", "300px");
+  slider.addClass('sliderClass');
   noFill();
   
   button = createButton("Click to Continue");
   button.mousePressed(() => disco = true);
   button.style("background-color", "200")
   background(255);
-  
-  //slider can't be customized. I've had problems with it since the beginning of this unit. the color is always green, regardless of what files I open. I copy/pasted the code in the html file from w3Schools and it works for the button, but not the slider. very lost and confused
-  slider.style("background-color", "pink")
+
+  slider.style("background-color", "white")
 }
 
 function draw() {
@@ -47,7 +47,7 @@ function draw() {
     textAlign(CENTER);
   textFont("trebuchet MS");
     textSize(50);
-   text ("FLASH WARNING", width / 2 + 7, height / 2 + 50)
+   text ("FLASH WARNING", width / 2 + 5, height/2)
   }
   
   
